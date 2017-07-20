@@ -1,0 +1,18 @@
+{
+  "E_SERVER_CRASH": {
+    "code": 500,
+    "msg": "服务器错误!"
+  },
+  "E_DB_SERVER_CRASH":{
+    "code":1500,
+    "msg": "服务器连接失败!"
+  },
+  "SUCCESS":{
+    "code": 200,
+    "msg":"操作成功!"
+  },
+  "FAIL":{
+    "code":-200,
+    "msg":"操作失败!"
+  }
+}

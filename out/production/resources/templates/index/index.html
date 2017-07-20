@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Killer $: Home _</title>
+</head>
+<body>
+<p>this is your time!</p>
+<h1 th:text="${time}"></h1>
+<o>
+    <li th:each="item : ${pets}" th:text="${item.name}"></li>
+</o>
+</body>
+</html>

@@ -1,0 +1,45 @@
+# Server configuration
+server:
+  port: 8050
+
+# Log
+logging:
+  level:
+    org.codelife.app.killer
+
+# Spring configuration
+spring:
+  datasource:
+    username: root
+    password: 1234
+    name: TheCodeLife
+    url: jdbc:mysql://127.0.0.1:3306/codelife
+  thymeleaf:
+    mode: HTML5
+    cache: false
+    content-type: text/html
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+
+# MyBatis
+mybatis:
+  type-aliases-package: org.codelife.app.killer.model
+  type-handlers-package: org.codelife.app.killer.db.typehandler
+  configuration:
+    map-underscore-to-camel-case: true
+    default-fetch-size: 100
+    default-statement-timeout: 30
+
+# Security configration
+security:
+  user:
+    name: alex
+    password: a
+
+# Resources configration
+resources:
+  strings:
+    dir: classpath:string/
+    infoPath: errorInfo.json
+
