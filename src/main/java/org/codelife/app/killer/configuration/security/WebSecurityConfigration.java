@@ -22,13 +22,14 @@ public class WebSecurityConfigration extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+
         http.csrf().disable()
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests()
-                .antMatchers(HttpMethod.GET,"/favicon.ico","/","/**/*.html","/**/*.css","/**/*.js")
+                .antMatchers(HttpMethod.GET,"/favicon.ico","/","/**/*.html","/**/*.css","/**/*.js","/**/*.jpg","/**/*.png")
                 .permitAll()
-                .antMatchers("/auth/**")
+                .antMatchers("/auth/**","/door/**")
                 .permitAll()
                 .anyRequest().authenticated();
         http.headers().cacheControl();

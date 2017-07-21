@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="head :: head">
+</head>
+<body>
+<!-- common navigation header -->
+<div th:replace="header :: header"></div>
+
+    <div class="uk-position-center uk-card uk-card-default uk-padding">
+    <form>
+        <div class="uk-margin">
+            <div class="uk-inline">
+                <span class="uk-form-icon" uk-icon="icon: user"></span>
+                <input class="uk-input" type="text"/>
+            </div>
+        </div>
+        <div class="uk-margin">
+            <div class="uk-inline">
+                <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                <input class="uk-input" type="password"/>
+            </div>
+        </div>
+        <div class="uk-margin" style="text-align: center">
+            <button class="uk-button uk-button-default">Open The Door</button>
+        </div>
+    </form>
+    </div>
+
+<!-- footer -->
+<div th:replace="footer :: footer"></div>
+<div th:replace="script :: lib"></div>
+</body>
+</html>

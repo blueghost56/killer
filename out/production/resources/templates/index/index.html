@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8"/>
-    <title>Killer $: Home _</title>
-</head>
+<head th:replace="head :: head"></head>
 <body>
-<p>this is your time!</p>
-<h1 th:text="${time}"></h1>
-<o>
-    <li th:each="item : ${pets}" th:text="${item.name}"></li>
-</o>
+<!-- common navigation header -->
+<div th:replace="header :: header"></div>
+
+<div class="uk-margin" uk-grid="">
+    <!-- left side menu -->
+    <div th:replace="menuSection :: floatSideMenu"></div>
+    <!-- content body -->
+    <div th:replace="component/main :: content"></div>
+</div>
+
+<!-- footer -->
+<div th:replace="footer :: footer"></div>
+<div th:replace="script :: lib"></div>
 </body>
 </html>
