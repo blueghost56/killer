@@ -9,6 +9,8 @@ logging:
 
 # Spring configuration
 spring:
+  messages:
+    basename: i18n/messages
   datasource:
     username: root
     password: 1234
@@ -42,4 +44,20 @@ resources:
   strings:
     dir: classpath:string/
     infoPath: errorInfo.json
+  configs:
+    dir: classpath:conf/
+    superAdmin: {
+      path: super-admin.conf,
+      expiration: 20
+    }
+
+# Json web token configration
+jwt:
+  header: Authorization
+  secret: secret
+  expiration: 604800 # 1 week
+  tokenHeader: "wayx "
+  issuer: http://ways.system
+
+
 

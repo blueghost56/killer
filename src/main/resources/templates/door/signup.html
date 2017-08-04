@@ -1,9 +1,79 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head th:replace="head :: head">
+<head th:replace="head :: head(#{signUp.title})">
 </head>
 <body>
+<!-- nav header -->
+<div th:replace="welcomeHeader :: header"></div>
 
-<footer th:replace="footer :: footer"></footer>
+<!-- main content -->
+<div class="uk-card uk-card-default uk-card-body uk-position-center uk-text-center" >
+    <div class="uk-panel uk-float-right">
+        <a  href="/door/signIn.html" class="uk-text-primary" th:text="#{signIn.button}"></a>
+    </div>
+    <form id="form-signup">
+        <table class="uk-table  uk-table-divider">
+            <thead>
+                <tr>
+                        <h4  th:text="#{signUp.title}"></h4>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label th:text="#{username.label}"></label>
+                    </td>
+                    <td>
+                        <input class="uk-input"  name="username" type="text" th:placeholder="#{username.hint}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label th:text="#{password.label}"></label>
+                    </td>
+                    <td>
+                        <input  class="uk-input" name="password" type="password" th:placeholder="#{password.hint}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label th:text="#{tel.label}"></label>
+                    </td>
+                    <td>
+                        <input class="uk-input" name="phoneNumber" type="tel" th:placeholder="#{tel.hint}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label th:text="#{email.label}"></label>
+                    </td>
+                    <td>
+                        <input class="uk-input" name="email" type="email" th:placeholder="#{email.hint}"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <hr class="uk-divider-icon"/>
+        <button id="btn-submit" class="uk-button uk-button-default uk-width-1-2" type="button" th:text="#{submit.button}"></button>
+    </form>
+</div>
+
+<script>
+    $("#btn-submit").click(function () {
+       HttpUtils.promisePost("signup.do","#form-signup")
+           .then(function (d) {
+               console.log("Success Error:"+e);
+              MessageUtils.sucess(d.msg);
+           })
+           .catch(function (e) {
+               console.log("Catch Error:"+e);
+               MessageUtils.warning(e.msg);
+           });
+    });
+</script>
+
+<!-- footer -->
+<div th:replace="footer :: footer"></div>
+<div th:replace="script :: lib"></div>
 </body>
 </html>

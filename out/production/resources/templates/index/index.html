@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head th:replace="head :: head"></head>
+<head th:replace="head :: head(#{index.title})"></head>
 <body>
 <!-- common navigation header -->
 <div th:replace="header :: header"></div>
@@ -8,8 +8,6 @@
 <div class="uk-margin" uk-grid="">
     <!-- left side menu -->
     <div th:replace="menuSection :: floatSideMenu"></div>
-    <!-- content body -->
-    <div th:replace="component/main :: content"></div>
 </div>
 
 <!-- footer -->

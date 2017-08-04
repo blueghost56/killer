@@ -16,9 +16,14 @@ public class ModelAndViewProxy {
         modelAndView=new ModelAndView();
     }
 
-    public ModelAndView setViewName(final String viewName){
+    public ModelAndViewProxy(String viewName){
+        this();
         modelAndView.setViewName(viewName);
-        return modelAndView;
+    }
+
+    public ModelAndViewProxy setViewName(final String viewName){
+        modelAndView.setViewName(viewName);
+        return this;
     }
 
     public ModelAndViewProxy addObject(final String attributeName,final Object attributeValue){
@@ -30,4 +35,7 @@ public class ModelAndViewProxy {
         return this;
     }
 
+    public ModelAndView toMAV(){
+        return modelAndView;
+    }
 }

@@ -1,7 +1,7 @@
 package org.codelife.app.killer.bean;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import org.codelife.app.killer.configuration.ErrorCode;
+import org.codelife.app.killer.configuration.StatusCode;
 import org.codelife.app.killer.configuration.ResourceConfig;
 import org.codelife.app.killer.util.JsonUtils;
 import org.slf4j.Logger;
@@ -24,14 +24,14 @@ public class JsonCode {
     @Autowired
     ResourceConfig resourceConfig;
 
-    public JsonCodeInfo getJsonCodeInfo(final ErrorCode errorCode){
+    public JsonCodeInfo getJsonCodeInfo(final StatusCode statusCode){
         Map<String,JsonCodeInfo> jsonCodeMap= null;
         try {
             jsonCodeMap = JsonUtils.getTemplateObj(resourceConfig.getStrings().getInfoFile(), new TypeReference<Map<String, JsonCodeInfo>>() {});
         } catch (IOException e) {
             throw new RuntimeException(e.getLocalizedMessage());
         }
-        return jsonCodeMap.get(errorCode.toString());
+        return jsonCodeMap.get(statusCode.toString());
     }
 
 

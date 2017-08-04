@@ -3,8 +3,11 @@ package org.codelife.app.killer.model;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.Builder;
+import lombok.Data;
 
 import java.sql.Timestamp;
+import java.util.List;
 
 /**
  * member's account
@@ -13,54 +16,31 @@ import java.sql.Timestamp;
  * @create 07/21/2017 13:53
  **/
 @JsonInclude(value = JsonInclude.Include.NON_NULL)
+@Data
 public class Account {
     private int accountId; // Account's id
     private String username; // for login
     @JsonIgnore
     private String password; // account's password
     @JsonFormat(pattern = "YYYY/MM/DD HH:mm:ss")
+    private Timestamp registerTime;
+    @JsonFormat(pattern = "YYYY/MM/DD HH:mm:ss")
     private Timestamp lastLoginTime;
     private String loginIp;
+    @JsonIgnore
+    private List<String> roles;
 
     public Account(){}
 
-    public int getAccountId() {
-        return accountId;
-    }
-
-    public void setAccountId(int accountId) {
-        this.accountId = accountId;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public Timestamp getLastLoginTime() {
-        return lastLoginTime;
-    }
-
-    public void setLastLoginTime(Timestamp lastLoginTime) {
-        this.lastLoginTime = lastLoginTime;
-    }
-
-    public String getLoginIp() {
-        return loginIp;
-    }
-
-    public void setLoginIp(String loginIp) {
-        this.loginIp = loginIp;
+    public String toString() {
+        return "Account{" +
+                "accountId=" + accountId +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", registerTime=" + registerTime +
+                ", lastLoginTime=" + lastLoginTime +
+                ", loginIp='" + loginIp + '\'' +
+                ", roles=" + roles +
+                '}';
     }
 }

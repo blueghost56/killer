@@ -1,22 +1,23 @@
 package org.codelife.app.killer.bean;
 
+
 /**
- * reponse  code,message
+ * reponse  status,message
  *
  * @author csl
  * @create 07/20/2017 14:52
  **/
 public class JsonCodeInfo {
-    private int code;
+    private int status;
     private String msg;
     public JsonCodeInfo(){}
 
-    public int getCode() {
-        return code;
+    public int getStatus() {
+        return status;
     }
 
-    public void setCode(int code) {
-        this.code = code;
+    public void setStatus(int status) {
+        this.status = status;
     }
 
     public String getMsg() {

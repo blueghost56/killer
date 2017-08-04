@@ -1,6 +1,6 @@
 package org.codelife.app.killer.util;
 
-import org.codelife.app.killer.configuration.ErrorCode;
+import org.codelife.app.killer.configuration.StatusCode;
 import org.codelife.app.killer.bean.JsonCode;
 import org.codelife.app.killer.bean.JsonCodeInfo;
 import org.codelife.app.killer.bean.JsonResult;
@@ -20,7 +20,7 @@ public final class JsonResultUtils{
     JsonCode jsonCode;
 
 
-    public <T>JsonResult<T> newInstance(final ErrorCode code, final T data){
+    public <T>JsonResult<T> newInstance(final StatusCode code, final T data){
         return makeJsonResult(jsonCode,code,data);
     }
 
@@ -28,8 +28,11 @@ public final class JsonResultUtils{
         return new JsonResult<>(code,msg,data);
     }
 
-    private static <T>JsonResult<T> makeJsonResult(final JsonCode jsonCode,final ErrorCode code,final T data){
+    public <T>JsonResult<T> newInstance(final StatusCode code){
+        return makeJsonResult(jsonCode,code,null);
+    }
+    private static <T>JsonResult<T> makeJsonResult(final JsonCode jsonCode, final StatusCode code, final T data){
         JsonCodeInfo info=jsonCode.getJsonCodeInfo(code);
-        return new JsonResult<>(info.getCode(),info.getMsg(),data);
+        return new JsonResult<>(info.getStatus(),info.getMsg(),data);
     }
 }

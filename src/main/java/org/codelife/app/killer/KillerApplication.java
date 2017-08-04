@@ -6,13 +6,21 @@ import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletCont
 import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
 import org.springframework.boot.web.servlet.ErrorPage;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
+import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.support.ReloadableResourceBundleMessageSource;
+import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
+import java.nio.charset.Charset;
 
 @SpringBootApplication
-public class KillerApplication {
+public class KillerApplication extends WebMvcConfigurerAdapter{
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(KillerApplication.class, args);
@@ -25,6 +33,7 @@ public class KillerApplication {
 		servletRegistrationBean.setName("ApiServlet");
 		return servletRegistrationBean;
 	}
+
 
 	// custom define the error page
 	@Bean

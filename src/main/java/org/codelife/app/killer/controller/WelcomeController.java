@@ -1,6 +1,7 @@
 package org.codelife.app.killer.controller;
 
-import org.codelife.app.killer.configuration.ErrorCode;
+import org.codelife.app.killer.adapter.BaseControllerAdapter;
+import org.codelife.app.killer.configuration.StatusCode;
 import org.codelife.app.killer.bean.JsonResult;
 import org.codelife.app.killer.mapper.TestMapper;
 import org.codelife.app.killer.model.Pets;
@@ -17,8 +18,8 @@ import java.util.Date;
 import java.util.List;
 
 @Controller
-public class IndexController {
-    private final static Logger LOGGER= LoggerFactory.getLogger(IndexController.class);
+public class WelcomeController extends BaseControllerAdapter{
+    private final static Logger LOGGER= LoggerFactory.getLogger(WelcomeController.class);
 
     @Autowired
     TestMapper tm;
@@ -28,13 +29,12 @@ public class IndexController {
 
     @RequestMapping("/")
     public ModelAndView index(){
-        final ModelAndView modelAndView=new ModelAndView();
-        modelAndView.setViewName("index/index");
-        modelAndView.addObject("time",new Date());
+
         List<Pets> petsList=tm.findAllPets();
-        modelAndView.addObject("pets",petsList);
-        LOGGER.info("Test is a same class instance:{}",tm.toString());
-        return modelAndView;
+        return modelAndViewProxy("index/index")
+                .addObject("time",new Date())
+                .addObject("pets",petsList)
+                .toMAV();
     }
 
     @ResponseBody
@@ -43,13 +43,13 @@ public class IndexController {
         // 1. Query from mysql 2. Write data to local file
         List<Pets> petsList= tm.findAllPets();
 
-      return jsonResultUtils.newInstance(ErrorCode.SUCCESS,petsList);
+      return jsonResultUtils.newInstance(StatusCode.SUCCESS,petsList);
     }
 
     @ResponseBody
     @RequestMapping("/tf")
     public JsonResult<Integer> insertDB(){
-        return jsonResultUtils.newInstance(ErrorCode.SUCCESS,13);
+        return jsonResultUtils.newInstance(StatusCode.SUCCESS,13);
     }
 
 }

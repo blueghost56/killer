@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url("../lib/flower/color.css");
+
+body{
+    background-color: black;
+}
+.panel{
+    top: 30%;
+    left: 30%;
+    position: absolute;
+    background-color: snow;
+    width: 30%;
+    height: 30%;
+    padding: 16px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+nav{
+    color: white;
+}

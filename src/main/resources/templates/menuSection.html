@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <body>
-<div th:fragment="floatSideMenu" class="uk-margin-left uk-width-1-6">
-    <ul class="uk-list">
+<!--Left side menu-->
+<div th:fragment="floatSideMenu" class="uk-position-left uk-margin-left uk-margin-top uk-section">
+    <ul class="uk-tab-left" uk-tab="">
+        <li class="uk-active">
+            <a href="" th:text="#{menu.role}"></a>
+        </li>
         <li>
-            <div class="uk-card uk-card-small uk-card-default uk-card-body">
-                <div class="uk-card-badge uk-label">Badge</div>
-                <h3 class="uk-card-title">Title</h3>
-                <p></p>
-            </div>
+            <a href="#" th:text="#{menu.modules}"></a>
         </li>
     </ul>
 </div>

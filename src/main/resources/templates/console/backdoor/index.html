@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="#{backdoor.title}"></title>
+    <link rel="stylesheet" href="/css/backdoor/index.css"/>
+    <script th:src="@{/js/backdoor/index.js}"></script>
+</head>
+<body>
+    <nav>N Coin</nav>
+    <div class="panel">
+        <h4 class="red" th:text="#{backdoor.warning}"></h4>
+      <form id="form-sa" th:action="@{enter.do}" th:method="POST">
+        <div>
+            <p><input id="form-sa-email" type="email" name="email" th:placeholder="#{email.label}" autocomplete="off"/></p>
+        </div>
+        <button id="form-sa-btn-submit" type="button" th:text="#{apply.button}"></button>
+      </form>
+    </div>
+</body>
+</html>

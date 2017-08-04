@@ -1,9 +1,12 @@
 <!doctype html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head th:fragment="head">
+<head th:fragment="head(title)">
     <meta charset="UTF-8"/>
-    <title>192 $: Killer_</title>
+    <meta name="_csrf" th:content="${_csrf.token}"/>
+    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+    <title th:inline="text">192@Killer $: [[${title}]] _</title>
     <link href="/js/lib/uikit/css/uikit.css" rel="stylesheet"/>
+    <script src="/js/lib/jquery/jquery-3.2.1.min.js"></script>
     <script src="/js/lib/vue/vue.js"></script>
 </head>
 </html>
