@@ -9,7 +9,6 @@ import org.codelife.app.killer.util.TimeUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -35,18 +34,16 @@ public class DoorController extends BaseControllerAdapter{
     @Autowired
     DoorHandler doorHandler;
 
-    @RequestMapping(path = {"/","/signIn.html"})
-    public ModelAndView onSignIn(HttpSession session){
+    @RequestMapping(path = {"","/signIn.html"})
+    public ModelAndView onSignIn(){
 
-        boolean isCerValidate=isCerValidate(session);
-        return modelAndViewProxy("door/signin")
-                .addObject("isShowSignUpPage",isCerValidate)
+        return modelAndViewProxy("door","signin")
                 .toMAV();
     }
 
     @RequestMapping("/signUp.html")
     public ModelAndView onSignUp(HttpSession session){
-        return modelAndViewProxy("door/signup")
+        return modelAndViewProxy("door","signup")
                 .addObject("","")
                 .toMAV();
     }

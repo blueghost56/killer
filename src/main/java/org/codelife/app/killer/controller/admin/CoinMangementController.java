@@ -1,11 +1,10 @@
-package org.codelife.app.killer.controller.console;
+package org.codelife.app.killer.controller.admin;
 
 import org.codelife.app.killer.adapter.BaseControllerAdapter;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * N coin operation
  *
  * @author csl
  * @create 07/27/2017 9:51

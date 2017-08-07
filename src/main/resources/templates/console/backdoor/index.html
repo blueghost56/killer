@@ -10,11 +10,20 @@
     <nav>N Coin</nav>
     <div class="panel">
         <h4 class="red" th:text="#{backdoor.warning}"></h4>
-      <form id="form-sa" th:action="@{enter.do}" th:method="POST">
+        <!-- apply certificate form -->
+      <form th:if="${showVerifyPage} == false" id="form-sa" th:action="@{enter.do}" th:method="POST">
         <div>
             <p><input id="form-sa-email" type="email" name="email" th:placeholder="#{email.label}" autocomplete="off"/></p>
         </div>
         <button id="form-sa-btn-submit" type="button" th:text="#{apply.button}"></button>
+      </form>
+        <!-- verify certificate form -->
+      <form th:if="${showVerifyPage} == true" id="form-sa" th:action="@{validate.do}" th:method="POST" enctype="multipart/form-data">
+        <div>
+           <p><input id="form-sa-email" type="email" name="email" th:placeholder="#{email.label}" autocomplete="off"/></p>
+           <p><input id="form-sa-file" type="file" name="file" autocomplete="off"/></p>
+        </div>
+       <button id="form-sa-btn-submit" type="button" th:text="#{submit.button}"></button>
       </form>
     </div>
 </body>

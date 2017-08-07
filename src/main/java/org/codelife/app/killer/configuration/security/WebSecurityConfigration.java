@@ -57,7 +57,7 @@ public class WebSecurityConfigration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/apis/**","/door/**","/backdoor/**")
                 .permitAll()
                 .antMatchers("/console/**")
-                .access("hasRole('USER')")
+                .access("hasRole('SUPER_ADMIN')")
                 .and()
                 .authorizeRequests()
                 .anyRequest().authenticated();

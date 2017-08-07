@@ -1,20 +1,19 @@
-package org.codelife.app.killer.controller;
+package org.codelife.app.killer.controller.console;
 
+import com.google.common.base.Strings;
+import org.apache.catalina.servlet4preview.http.HttpServletRequest;
 import org.codelife.app.killer.adapter.BaseControllerAdapter;
 import org.codelife.app.killer.configuration.ResourceConfig;
-import org.codelife.app.killer.constant.SymbolContract;
 import org.codelife.app.killer.handler.BackDoorHandler;
-import org.codelife.app.killer.security.PasswordUtils;
+import org.codelife.app.killer.util.ViewKit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.util.ResourceUtils;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -24,8 +23,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpSession;
 import java.io.*;
-import java.util.Calendar;
-import java.util.Date;
 
 /**
  *  usage:
@@ -49,56 +46,49 @@ public class BackDoorController extends BaseControllerAdapter{
         this.backDoorHandler.setResource(resourceConfig.getConfigs());
     }
 
+    /**
+     *  verify certificate file:
+     *  a. show the validate page
+     *  b. deny to access
+     * @return
+     */
     @RequestMapping("/")
     public ModelAndView index(){
-          boolean isValidateTokenFile=backDoorHandler.isValidateTokenFile();
+        boolean isTokenFileValidated=backDoorHandler.verifyTokenFile();
         return modelAndViewProxy("console/backdoor/index")
-                .addObject("",isValidateTokenFile)
+                .addObject("showVerifyPage",isTokenFileValidated)
                 .toMAV();
     }
 
-
     @PostMapping("/validate.do")
-    public String doValidate(@RequestParam("email")String email,@RequestParam("file")MultipartFile file,HttpSession session) throws IOException {
+    public String doValidate(@RequestParam("email")String email, @RequestParam("file")MultipartFile file, HttpServletRequest request) throws IOException {
+        boolean isHandleSuccess=false;
 
-        BufferedReader bufferedReader=new BufferedReader(new InputStreamReader(file.getInputStream(),"UTF-8"));
-        String line=bufferedReader.readLine().trim();
-            bufferedReader.close();
-        String[] tokenLine = line.split(SymbolContract.Colon.toString());
-        String token=tokenLine[0];
-
-        Date startTime=new Date(Long.valueOf(tokenLine[1]));
-        Calendar calendar=Calendar.getInstance();
-        calendar.setTime(startTime);
-        calendar.set(Calendar.MINUTE,Integer.valueOf(tokenLine[2]));
-
-        Date expiredTime=calendar.getTime();
-
-        boolean isCerExpried=expiredTime.before(new Date());
-        if(isCerExpried){
-            LOGGER.info("---证书已经过期---");
-        }
-        boolean isValidToken=PasswordUtils.isValid("NYC"+email,tokenLine[0]);
-        LOGGER.info("令牌:{},时间:{},期限:{},令牌是否有效:{}",tokenLine[0],tokenLine[1],tokenLine[2],isValidToken);
-
-        if(!isCerExpried&&isValidToken){
-            session.setAttribute(KEY_CER_VALIDATE,true);
-        }else {
-            session.setAttribute(KEY_CER_VALIDATE,false);
+        if(!Strings.isNullOrEmpty(email) && null!=file && !file.isEmpty()){
+            isHandleSuccess=true;
         }
 
-        return "redirect:/door/";
+        boolean isTokenValidated=isHandleSuccess?backDoorHandler.verifyToken(email,file.getInputStream(),file.getOriginalFilename()):false;
+        if(isTokenValidated){
+            backDoorHandler.createSuperAdminAccount(email,request);
+        }
+
+        String forwardUrl= ViewKit.redirect("door");
+        if(isTokenValidated){
+            forwardUrl=ViewKit.redirect("http://www.baidu.com");
+        }
+        return forwardUrl;
     }
 
     @ResponseBody
     @PostMapping("/enter.do")
     public ResponseEntity<ByteArrayResource> doApplyFile(@RequestParam("email")String email, HttpSession session) throws IOException {
-      final String token= PasswordUtils.encodeByBcrypt("NYC"+email);
-      final String lineFormat=token+SymbolContract.Colon+System.currentTimeMillis()+SymbolContract.Colon+"20"; // expired at 20 minutes
+       final String lineFormat=backDoorHandler.getSuperAdminToken(email);
+       final String fileName=backDoorHandler.getTokenFileName();
 
         HttpHeaders httpHeaders=new HttpHeaders();
         httpHeaders.add("Cache-Control","no-cache,no-store,must-revalidate");
-        httpHeaders.add("Content-Disposition",String.format("attachment; filename=\"%s\"","init.token"));
+        httpHeaders.add("Content-Disposition",String.format("attachment; filename=\"%s\"",fileName));
         httpHeaders.add("Pragma","no-cache");
         httpHeaders.add("Expires","0");
 

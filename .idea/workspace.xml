@@ -2,106 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eae17be5-c72f-46f8-8164-eea3ce458d17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/img/scrap2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_0_18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_0_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/adapter/BaseControllerAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/bean/form/SignInForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/bean/form/SignUpForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/ConfigResources.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/StatusCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/CustomUsernamePasswordAuthenticationFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/SuperAdminConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/UseDetailsServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/UserDetailsImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/constant/CharSetContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/constant/SymbolContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/BackDoorController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/api/PublicController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/api/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/CoinMangementController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/IndexController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/ModuleMangementController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/factory/AccountFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/factory/UserDetailsFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/handler/BackDoorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/handler/DoorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/handler/FileHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/intercepter/ApisIntercepter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/mapper/AccountMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/mapper/UserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/security/JWTUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/security/PasswordUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/security/entity/Authority.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/security/entity/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/service/AccountService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/service/impl/AccountServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/typehandler/StringListTypeHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/TimeUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages_zh_CN.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/backdoor/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/lib/flower/color.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/backdoor/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/lib/vue/vue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/lib/vue/vue.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/toolkit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/console/backdoor/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/console/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/console/module/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/welcomeHeader.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/configuration/ErrorCode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/controller/IndexController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/ErrorCode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/component/main.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/RoleAuthorityManagementController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/factory/SuperAdminFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/mapper/console/SuperAdminLogMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/mapper/console/SuperAdminMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/model/console/SuperAdmin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/model/console/SuperAdminLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/service/impl/SuperAdminServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/HttpUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/KillerApplication.class" afterPath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/KillerApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/bean/JsonCode$1.class" afterPath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/bean/JsonCode$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/bean/JsonCode.class" afterPath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/bean/JsonCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/bean/JsonCodeInfo.class" afterPath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/bean/JsonCodeInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/bean/JsonResult.class" afterPath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/bean/JsonResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/configuration/ResourceConfig.class" afterPath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/configuration/ResourceConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/configuration/StringResources.class" afterPath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/configuration/StringResources.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/util/JsonResultUtils.class" afterPath="$PROJECT_DIR$/out/production/classes/org/codelife/app/killer/util/JsonResultUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/killer_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/killer_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/killer_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/killer_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/application.yml" afterPath="$PROJECT_DIR$/out/production/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/string/errorInfo.json" afterPath="$PROJECT_DIR$/out/production/resources/string/errorInfo.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/templates/index/index.html" afterPath="$PROJECT_DIR$/out/production/resources/templates/index/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/KillerApplication.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/KillerApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/bean/JsonCode.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/bean/JsonCode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/bean/JsonCodeInfo.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/bean/JsonCodeInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/bean/JsonResult.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/bean/JsonResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/ResourceConfig.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/ResourceConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/StringResources.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/StringResources.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/adapter/BaseControllerAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/adapter/BaseControllerAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/SuperAdminConfig.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/SuperAdminConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/WebSecurityConfigration.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/WebSecurityConfigration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/constant/SymbolContract.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/constant/SymbolContract.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/DoorController.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/DoorController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/api/AuthController.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/api/AuthController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/model/Account.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/model/Account.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/model/Module.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/model/Module.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/JsonResultUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/JsonResultUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/ModelAndViewProxy.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/ModelAndViewProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/IndexController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/handler/BackDoorHandler.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/handler/BackDoorHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/ViewKit.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/ViewKit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/string/errorInfo.json" afterPath="$PROJECT_DIR$/src/main/resources/string/errorInfo.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/door/signin.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/door/signin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/door/signup.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/door/signup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/footer.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/head.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/index/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/menuSection.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/menuSection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/script.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/script.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/WelcomeController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterPath="$PROJECT_DIR$/src/main/resources/conf/super-admin.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/console/backdoor/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/console/backdoor/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/BackDoorController.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/BackDoorController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/CoinMangementController.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/admin/CoinMangementController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/ModuleMangementController.java" afterPath="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/ModuleManagementController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -131,54 +56,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="SuperAdminLogMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/mapper/console/SuperAdminLogMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BackDoorController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/BackDoorController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="72" column="42" lean-forward="false" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="49" column="28" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+            <state relative-caret-position="374">
+              <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BackDoorHandler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BackDoorHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/handler/BackDoorHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="43" column="48" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+            <state relative-caret-position="292">
+              <caret line="87" column="4" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperAdminFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/factory/SuperAdminFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperAdminServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/service/impl/SuperAdminServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SymbolContract.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/constant/SymbolContract.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuperAdminConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/SuperAdminConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BackDoorController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/BackDoorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -190,11 +125,11 @@
       <list>
         <option value="Singleton" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="XML Properties File" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -492,28 +427,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/config/module.json" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/model/Module.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/backdoor/InitController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/backdoor/BackDoorController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/header.html" />
-        <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.9.RELEASE/ac31864038a1c31d5a49c1bef84e5af4a162a655/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/http/ResponseEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/constant/SymbolContract.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/adapter/BaseControllerAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/BackDoorController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/menuSection.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/door/signup.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/bean/JsonResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/KillerApplication.java" />
-        <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.2.3.RELEASE/9e3741f7cb7db06829fc818e38f58bbe9f5a0b94/spring-security-config-4.2.3.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/door/signin.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/CustomUsernamePasswordAuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/ModelAndViewProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/DoorController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/security/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/security/entity/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/security/entity/Authority.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/api/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/intercepter/ApisIntercepter.java" />
@@ -521,27 +434,49 @@
         <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/security/JWTUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/api/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/api/AuthController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/WebSecurityConfigration.java" />
         <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.4.RELEASE/16bcc5d1ad0af5fd4305efcf4f4a20dc27ddb7c9/spring-boot-autoconfigure-1.5.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java" />
         <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.4.RELEASE/16bcc5d1ad0af5fd4305efcf4f4a20dc27ddb7c9/spring-boot-autoconfigure-1.5.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/api/PublicController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/console/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/i18n/messages_zh_CN.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/flower/color.css" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/lib/flower/color.css" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/backdoor/index.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/console/backdoor/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/backdoor/index.js" />
         <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/Resources.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/ResourceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/StringResources.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/constant/CharSetContract.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/BackDoorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/ConfigResources.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/console/backdoor/test.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/console/backdoor/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/super-admin.conf" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/CoinMangementController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/admin/CoinMangementController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/RoleAuthorityManagementController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/ModuleManagementController.java" />
+        <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.9.RELEASE/ac31864038a1c31d5a49c1bef84e5af4a162a655/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/web/multipart/MultipartFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/BackDoorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/ViewKit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/adapter/BaseControllerAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/DoorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/mvc/WebMVCConfigration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/mvc/WebMvcConfigration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/WebSecurityConfigration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/KillerApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/mapper/console/SuperAdminMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/model/console/SuperAdmin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/model/console/SuperAdminLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/mapper/console/SuperAdminLogMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/SuperAdminConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/constant/SymbolContract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/BackDoorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/service/impl/SuperAdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/factory/SuperAdminFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/codelife/app/killer/handler/BackDoorHandler.java" />
       </list>
     </option>
@@ -560,8 +495,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="426" />
+    <option name="x" value="228" />
+    <option name="y" value="119" />
     <option name="width" value="1932" />
     <option name="height" value="841" />
   </component>
@@ -632,16 +567,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="killer" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="killer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="killer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="killer" type="462c0819:PsiDirectoryNode" />
               <item name="configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -661,7 +586,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="killer" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="killer" type="b2602c69:ProjectViewProjectNode" />
@@ -671,6 +596,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="killer" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="killer" type="b2602c69:ProjectViewProjectNode" />
@@ -688,7 +614,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="killer" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="killer" type="b2602c69:ProjectViewProjectNode" />
@@ -697,7 +623,65 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="killer" type="462c0819:PsiDirectoryNode" />
-              <item name="intercepter" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="killer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="killer" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="killer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="killer" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="killer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="killer" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="killer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="killer" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="killer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="killer" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="killer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="killer" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="killer" type="b2602c69:ProjectViewProjectNode" />
@@ -722,6 +706,69 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="killer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="killer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="killer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="backdoor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="killer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="killer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="killer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="backdoor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="killer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="killer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="door" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -916,7 +963,7 @@
       <workItem from="1501223803265" duration="13721000" />
       <workItem from="1501647906041" duration="8413000" />
       <workItem from="1501659323829" duration="5674000" />
-      <workItem from="1501740747467" duration="39048000" />
+      <workItem from="1501740747467" duration="66293000" />
     </task>
     <task id="LOCAL-00001" summary="Killer Coin mobile App">
       <created>1500543425485</created>
@@ -953,11 +1000,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500632878283</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add some front page">
+      <created>1501843580325</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1501843580325</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220148000" />
+    <option name="totallyTimeSpent" value="247393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,13 +1040,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29157177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22437358" sideWeight="0.5520833" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29157177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32801822" sideWeight="0.5520833" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37927106" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19903433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21190988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1332574" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -1001,7 +1056,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1332574" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1057,321 +1111,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.jsonwebtoken/jjwt/0.7.0/b75369bdfec0a18d83643580b1b2e608f4fa3ba4/jjwt-0.7.0-sources.jar!/io/jsonwebtoken/JwtBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="192" column="58" lean-forward="true" selection-start-line="192" selection-start-column="58" selection-end-line="192" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/security/JWTUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-123">
-          <caret line="114" column="54" lean-forward="false" selection-start-line="114" selection-start-column="54" selection-end-line="114" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.4.RELEASE/83e2c1b0c81fdc58b7add6027523310d23d40bf6/spring-boot-1.5.4.RELEASE-sources.jar!/org/springframework/boot/SpringBootConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.4.RELEASE/16bcc5d1ad0af5fd4305efcf4f4a20dc27ddb7c9/spring-boot-autoconfigure-1.5.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="76" column="18" lean-forward="false" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.4.RELEASE/16bcc5d1ad0af5fd4305efcf4f4a20dc27ddb7c9/spring-boot-autoconfigure-1.5.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/CustomUsernamePasswordAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/door/signin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-          <folding>
-            <marker date="1501660774710" expanded="true" signature="92:104" ph="登陆" />
-            <marker date="1501660774710" expanded="true" signature="498:510" ph="账户" />
-            <marker date="1501660774710" expanded="true" signature="798:811" ph="密码长度为6~20位之间" />
-            <marker date="1501660774710" expanded="true" signature="1020:1033" ph="登陆" />
-            <marker date="1501660774710" expanded="true" signature="1242:1255" ph="注册" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/door/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="72" column="8" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
-          <folding>
-            <marker date="1501467096722" expanded="true" signature="92:104" ph="注册" />
-            <marker date="1501467096722" expanded="true" signature="416:429" ph="登陆" />
-            <marker date="1501467096722" expanded="true" signature="608:620" ph="注册" />
-            <marker date="1501467096722" expanded="true" signature="780:794" ph="用户名" />
-            <marker date="1501467096722" expanded="true" signature="952:965" ph="中英文数字均可,长度6~40字符间" />
-            <marker date="1501467096722" expanded="true" signature="1106:1120" ph="密 码" />
-            <marker date="1501467096722" expanded="true" signature="1282:1295" ph="长度为6~20字符间" />
-            <marker date="1501467096722" expanded="true" signature="1436:1445" ph="手机号码" />
-            <marker date="1501467096722" expanded="true" signature="1604:1612" ph="目前仅支持国内号码" />
-            <marker date="1501467096722" expanded="true" signature="1753:1764" ph="电子邮箱" />
-            <marker date="1501467096722" expanded="true" signature="1919:1929" ph="可选" />
-            <marker date="1501467096722" expanded="true" signature="2164:2177" ph="提交" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/console/module/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1501124953927" expanded="true" signature="92:112" ph="模块管理" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/KillerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/WebSecurityConfigration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="62" column="45" lean-forward="false" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
-          <folding>
-            <element signature="docComment;class#WebSecurityConfigration#0" expanded="false" />
-            <element signature="e#1744#1758#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.2.3.RELEASE/5c620ead93220cae89562bd3eda6ec875c43e1db/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/Authentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="64" column="82" lean-forward="false" selection-start-line="64" selection-start-column="82" selection-end-line="64" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/soft/java/jdk1.8_111/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-928">
-          <caret line="206" column="13" lean-forward="false" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/api/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="docComment;class#UserController#0" expanded="false" />
-            <element signature="e#916#917#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/api/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#AuthController#0" expanded="false" />
-            <element signature="e#660#661#0" expanded="false" />
-            <element signature="e#730#731#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/console/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <marker date="1501826785964" expanded="true" signature="92:111" ph="控制台" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/api/PublicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages_zh_CN.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="1339" column="0" lean-forward="false" selection-start-line="1339" selection-start-column="0" selection-end-line="1339" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/lib/flower/color.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/backdoor/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/backdoor/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1501053774386" expanded="true" signature="92:103" ph="主页" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/super-admin.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/console/backdoor/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding>
-            <marker date="1501835810321" expanded="true" signature="116:130" ph="192@killer $: Close,After_" />
-            <marker date="1501835810321" expanded="true" signature="354:370" ph="警告: 此功能仅为创建超级管理员!" />
-            <marker date="1501835810321" expanded="true" signature="545:556" ph="电子邮箱" />
-            <marker date="1501835810321" expanded="true" signature="664:676" ph="申请" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/ModelAndViewProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="38" column="2" lean-forward="false" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-          <folding>
-            <element signature="e#1038#1039#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/ViewKit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.9.RELEASE/f85656c1404f6e4fddbc1ca2180748856880913f/spring-core-4.3.9.RELEASE-sources.jar!/org/springframework/util/ResourceUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="166" column="23" lean-forward="false" selection-start-line="166" selection-start-column="23" selection-end-line="166" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/JsonResultUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/StatusCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -1416,34 +1155,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/Resources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/handler/DoorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-928">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/constant/CharSetContract.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1485,25 +1200,303 @@
         <state relative-caret-position="304">
           <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/console/backdoor/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/java/jdk1.8_111/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="934" column="16" lean-forward="false" selection-start-line="934" selection-start-column="16" selection-end-line="934" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/java/jdk1.8_111/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="1873" column="16" lean-forward="false" selection-start-line="1873" selection-start-column="16" selection-end-line="1873" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/backdoor/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/console/backdoor/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="20" column="130" lean-forward="false" selection-start-line="20" selection-start-column="130" selection-end-line="20" selection-end-column="130" />
+          <folding>
+            <marker date="1502088954133" expanded="true" signature="116:130" ph="192@killer $: Close,After_" />
+            <marker date="1502088954133" expanded="true" signature="354:370" ph="警告: 此功能仅为创建超级管理员!" />
+            <marker date="1502088954133" expanded="true" signature="620:631" ph="电子邮箱" />
+            <marker date="1502088954133" expanded="true" signature="739:751" ph="申请" />
+            <marker date="1502088954133" expanded="true" signature="1051:1062" ph="电子邮箱" />
+            <marker date="1502088954133" expanded="true" signature="1257:1270" ph="提交" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/Resources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/java/jdk1.8_111/src.zip!/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-692">
+          <caret line="160" column="11" lean-forward="false" selection-start-line="160" selection-start-column="11" selection-end-line="160" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/admin/CoinMangementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/RoleAuthorityManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/ModuleManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/22.0/55edc69e4fc937f4e58e577bb144b824c0ec7c55/guava-22.0-sources.jar!/com/google/common/base/Platform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+          <folding>
+            <element signature="e#2018#2019#0" expanded="false" />
+            <element signature="e#2069#2070#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/22.0/55edc69e4fc937f4e58e577bb144b824c0ec7c55/guava-22.0-sources.jar!/com/google/common/base/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="66" column="31" lean-forward="false" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+          <folding>
+            <element signature="e#2498#2499#0" expanded="false" />
+            <element signature="e#2551#2552#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.9.RELEASE/ac31864038a1c31d5a49c1bef84e5af4a162a655/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/web/multipart/MultipartFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/handler/DoorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/adapter/BaseControllerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.9.RELEASE/d40a14cdad9b34e6bc1a547345fb16d8fe3092c0/spring-webmvc-4.3.9.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="82" column="16" lean-forward="true" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/mvc/WebMvcConfigration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.9.RELEASE/d40a14cdad9b34e6bc1a547345fb16d8fe3092c0/spring-webmvc-4.3.9.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="81" column="25" lean-forward="false" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+          <folding>
+            <element signature="e#2882#2883#0" expanded="false" />
+            <element signature="e#2931#2932#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.9.RELEASE/d40a14cdad9b34e6bc1a547345fb16d8fe3092c0/spring-webmvc-4.3.9.RELEASE-sources.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/ViewKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/security/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/KillerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#2033#2034#0" expanded="true" />
+            <element signature="e#2071#2072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/super-admin.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/DoorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <folding>
+            <element signature="e#2286#2287#0" expanded="true" />
+            <element signature="e#2342#2343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/mapper/AccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/model/console/SuperAdminLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/util/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="49" column="28" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        <state relative-caret-position="256">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/handler/BackDoorHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="43" column="48" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+        <state relative-caret-position="374">
+          <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/mapper/console/SuperAdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/WebSecurityConfigration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1162">
+          <caret line="100" column="18" lean-forward="false" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
+          <folding>
+            <element signature="docComment;class#WebSecurityConfigration#0" expanded="false" />
+            <element signature="e#1744#1758#0" expanded="false" />
+            <element signature="e#7060#7061#0" expanded="true" />
+            <element signature="e#7108#7109#0" expanded="true" />
+            <element signature="e#7154#7155#0" expanded="true" />
+            <element signature="e#7211#7212#0" expanded="true" />
+            <element signature="e#7261#7262#0" expanded="true" />
+            <element signature="e#7311#7312#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1511,23 +1504,75 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/constant/SymbolContract.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/configuration/security/SuperAdminConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="512">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/BackDoorController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/model/console/SuperAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+        <state relative-caret-position="566">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/mapper/console/SuperAdminLogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/controller/console/BackDoorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="72" column="42" lean-forward="false" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/service/impl/SuperAdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/factory/AccountFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/factory/SuperAdminFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/codelife/app/killer/handler/BackDoorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="87" column="4" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
           <folding />
         </state>
       </provider>

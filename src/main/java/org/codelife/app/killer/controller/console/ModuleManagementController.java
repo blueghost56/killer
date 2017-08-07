@@ -6,15 +6,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * module management
- *
+ * Console - super admin
  * @author csl
  * @create 07/27/2017 9:59
  **/
 
 @RequestMapping("/console/module")
 @Controller
-public class ModuleMangementController extends BaseControllerAdapter{
+public class ModuleManagementController extends BaseControllerAdapter{
 
     @RequestMapping("/")
     public ModelAndView index(){

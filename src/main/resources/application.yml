@@ -5,7 +5,7 @@ server:
 # Log
 logging:
   level:
-    org.codelife.app.killer
+     org.codelife.app.killer
 
 # Spring configuration
 spring:
@@ -48,7 +48,12 @@ resources:
     dir: classpath:conf/
     superAdmin: {
       path: super-admin.conf,
-      expiration: 20
+      expiration: 20,
+      prefix: NYC,
+      suffix: token,
+      fileName: first,
+      fileExpiration: 120,
+      arguments: 3
     }
 
 # Json web token configration

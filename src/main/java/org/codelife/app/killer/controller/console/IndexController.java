@@ -11,6 +11,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
+ * Console - super admin
  * @author csl
  * @create 07/26/2017 15:17
  **/

@@ -1,6 +1,7 @@
 package org.codelife.app.killer.adapter;
 
 import org.codelife.app.killer.util.ModelAndViewProxy;
+import org.codelife.app.killer.util.ViewKit;
 
 import javax.servlet.http.HttpSession;
 
@@ -18,7 +19,7 @@ public abstract class BaseControllerAdapter {
         return new ModelAndViewProxy();
     }
 
-    public ModelAndViewProxy modelAndViewProxy(final String viewName){
-        return new ModelAndViewProxy(viewName);
+    public ModelAndViewProxy modelAndViewProxy(final String moduleName,final String... subPaths){
+        return new ModelAndViewProxy(ViewKit.getViewName(moduleName,subPaths));
     }
 }
